@@ -1,0 +1,48 @@
+=> What is Backend ? 
+->  Work Server and DB(Database).
+
+=> Why Backend ?
+	- Dynamic 
+
+=> Front-end ?
+	-  static
+
+=> Need ?
+	NodeJs,MongoDB,MongooseJs,ExpressJs.
+
+=============================
+node install 
+	: copy all File 
+
+import and export 
+run file.
+----------------------------------------------------------------- 
+node capable che server Banavvama.
+
+node js basicaly C++ ni mutiples File no code che je wrap thailo che JS File Thi .
+je aapda mate code ne Biji Language ma Execute kri Server Banavi ne aape che.
+=================================================
+npm  : = >    Nothing
+npm : node package manager 
+
+npm install xyz
+npm i xyz
+=====================================
+express : Fast, unopinionated, minimalist web framework for Node.js.
+
+express use : routing 
+
+
+https://www.instagram.com/zafar/profile/like/awertygvbnkiuygea 
+
+/zafar 
+/profile
+/like
+
+/
+
+
+
+
+
+
