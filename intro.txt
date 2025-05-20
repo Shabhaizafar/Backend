@@ -30,19 +30,30 @@ npm i xyz
 =====================================
 express : Fast, unopinionated, minimalist web framework for Node.js.
 
-express use : routing 
+express use : routing : GET,POST,PULL,FETCH,DELETE
 
 
 https://www.instagram.com/zafar/profile/like/awertygvbnkiuygea 
 
+
+
+----------------------------------------------------------------------
+route 
 /zafar 
 /profile
 /like
-
 /
 
 
+routing 
+https://www.instagram.com/zafar/profile/like/awertygvbnkiuygea 
 
+----------------------------------------------------------------------
+node vs express : 
+
+http : server (node)   
+
+express : 
 
 
 

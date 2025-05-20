@@ -3,6 +3,16 @@ var express = require("express");
 var app = express();
 
 
+app.use(function(request,response,next){
+  console.log("Hello World");
+  next();
+});
+
+app.use(function(request,response,next){
+  console.log("Everyone!!");
+  next();
+});
+
 app.get("/",function(request,response){
   response.send("Hello Everyone,Welcome to Node JS 😀!!!");
 });
