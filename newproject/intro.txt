@@ -1,0 +1,24 @@
+install mongodb
+install mongoosejs
+require setup  
+create Schema 
+create model
+
+====================================================
+
+(Coding)                    MongoDB 
+DB setup                    DB Formation 
+Model                       Collections
+Schema                      Documents
+
+
+DB : Database (stored Data)
+
+1. Relational  DB : 
+    Structured /Table format 
+        mySQL, ..........
+
+2. Non-Relational DB :
+    non-Structured / Stored Like Container/box.
+        MongoDB
+====================================================
