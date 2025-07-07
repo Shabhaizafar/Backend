@@ -11,12 +11,26 @@ var data = require('./users');
 
 
 // register submit
+// router.post('/submit', async function(req, res) {
+//   var obj = req.body;
+//   var d1 = new Date(obj.date);
+//      var s = await data.create({
+//       firstname : obj.firstname,
+//       date : d1
+//     });
+//   console.log(s);
+//   res.send("Register Successfully !!!");
+// });
+
+
 router.post('/submit', async function(req, res) {
   var obj = req.body;
-  var d1 = new Date(obj.date);
-     var s = await data.create({
+  var d1 = new Date(obj.sdate);
+  var d2 = new Date(obj.edate);
+  var s = await data.create({
       firstname : obj.firstname,
-      date : d1
+      startdate : d1,
+      enddate : d2
     });
   console.log(s);
   res.send("Register Successfully !!!");
