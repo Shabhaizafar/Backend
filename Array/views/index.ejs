@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Username and URL Form</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Submit Details</h2>
+    <form method="post" action="/submit">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+      <label>Hobbies : </label>
+      <input type="checkbox"  name="hobby1" value="Cricket"> Cricket
+      <input type="checkbox"  name="hobby2" value="Coding"> Coding
+      <input type="checkbox"  name="hobby3" value="Football"> Football
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
