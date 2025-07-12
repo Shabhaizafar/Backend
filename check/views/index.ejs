@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Username and URL Form</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <form action="/submit" onchange="main()">
+    <input type="checkbox" name="check" >
+  </form>
+
+  <script>
+    // temp 
+    document.querySelector("input").checked = (localStorage.filter1=="true") ? true : false;
+    function main(){
+      localStorage.setItem('filter1',document.querySelector('input').checked);
+      location.href = document.location.href;
+
+    }
+  </script>
+</body>
+</html>
